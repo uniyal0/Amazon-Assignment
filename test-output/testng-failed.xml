@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.amazon.testcases.Aws002">
+      <class name="com.amazon.testcases.Aws003">
         <methods>
           <include name="start"/>
           <include name="end"/>
-          <include name="addBookToCart"/>
+          <include name="changeLanguage"/>
         </methods>
-      </class> <!-- com.amazon.testcases.Aws002 -->
+      </class> <!-- com.amazon.testcases.Aws003 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

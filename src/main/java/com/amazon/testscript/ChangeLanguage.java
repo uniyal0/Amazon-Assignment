@@ -18,17 +18,16 @@ public class ChangeLanguage extends BaseClass{
 		action.moveToElement(element).build().perform();
 		Thread.sleep(2000);
 		
-		//Method 1
+		 //Method 1
 		
-//		List<WebElement> langs =  driver.findElements(By.xpath("//a[contains(@href,'#switch-lang')]//child::span//child::span[2]"));
-//		langs.get(i).click();
+	    //List<WebElement> langs =  driver.findElements(By.xpath("//a[contains(@href,'#switch-lang')]//child::span//child::span[2]"));
+		//langs.get(i).click();
+		
 		
 		//Method 2 passing language string
 		String locator = "#switch-lang="+str.toLowerCase()+"_IN";
 		String xpath  = "//a[contains(@href,"+"'"+locator+"'"+")]//child::span//child::span[2]";
-		//System.out.println(xpath);
-		driver.findElement(By.xpath(xpath)).click();
-		
+		driver.findElement(By.xpath(xpath)).click();	
 		Thread.sleep(5000);
 	}
 

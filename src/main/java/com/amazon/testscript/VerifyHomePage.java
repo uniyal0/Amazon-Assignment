@@ -4,7 +4,9 @@ import com.amazon.utility.BaseClass;
 
 public class VerifyHomePage extends BaseClass {
 	
-	public static void verifyTitle() {
+	public static void verifyTitle() throws InterruptedException {
+		driver.get("https://www.amazon.in/");
+		Thread.sleep(2000);
 		String title = driver.getTitle();
 		
 		if(title.contains("Online Shopping site in India: Shop Online for Mobiles, Books, Watches, Shoes and More - Amazon.in")) {

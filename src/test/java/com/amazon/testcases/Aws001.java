@@ -8,8 +8,7 @@ import com.amazon.utility.BaseClass;
 public class Aws001 extends BaseClass{
 	
 	@Test()
-	public void verifyHomePageTitle() {
-		driver.get("https://www.amazon.in/");
+	public void verifyHomePageTitle() throws InterruptedException {
 		VerifyHomePage.verifyTitle();
 	}
 

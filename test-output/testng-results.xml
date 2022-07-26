@@ -1,25 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="6" total="10" passed="4" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-07-26T21:36:32 IST" name="Default suite" finished-at="2022-07-26T21:36:52 IST" duration-ms="19666">
+  <suite started-at="2022-07-26T22:01:44 IST" name="Suite" finished-at="2022-07-26T22:02:38 IST" duration-ms="54084">
     <groups>
     </groups>
-    <test started-at="2022-07-26T21:36:32 IST" name="Default test" finished-at="2022-07-26T21:36:52 IST" duration-ms="19666">
-      <class name="com.amazon.testcases.Aws004">
-        <test-method is-config="true" signature="start()[pri:0, instance:com.amazon.testcases.Aws004@47af7f3d]" started-at="2022-07-26T21:36:30 IST" name="start" finished-at="2022-07-26T21:36:32 IST" duration-ms="2541" status="PASS">
+    <test started-at="2022-07-26T22:01:44 IST" name="Test" finished-at="2022-07-26T22:02:38 IST" duration-ms="54084">
+      <class name="com.amazon.testcases.Aws001">
+        <test-method is-config="true" signature="start()[pri:0, instance:com.amazon.testcases.Aws001@7c729a55]" started-at="2022-07-26T22:01:42 IST" name="start" finished-at="2022-07-26T22:01:44 IST" duration-ms="2713" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- start -->
-        <test-method signature="joinPrime()[pri:0, instance:com.amazon.testcases.Aws004@47af7f3d]" started-at="2022-07-26T21:36:32 IST" name="joinPrime" finished-at="2022-07-26T21:36:52 IST" duration-ms="19628" status="PASS">
+        <test-method signature="verifyHomePageTitle()[pri:0, instance:com.amazon.testcases.Aws001@7c729a55]" started-at="2022-07-26T22:01:44 IST" name="verifyHomePageTitle" finished-at="2022-07-26T22:01:51 IST" duration-ms="7147" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- joinPrime -->
-        <test-method is-config="true" signature="end()[pri:0, instance:com.amazon.testcases.Aws004@47af7f3d]" started-at="2022-07-26T21:36:52 IST" name="end" finished-at="2022-07-26T21:36:56 IST" duration-ms="4249" status="PASS">
+        </test-method> <!-- verifyHomePageTitle -->
+        <test-method is-config="true" signature="end()[pri:0, instance:com.amazon.testcases.Aws001@7c729a55]" started-at="2022-07-26T22:02:38 IST" name="end" finished-at="2022-07-26T22:02:43 IST" duration-ms="4258" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- end -->
+      </class> <!-- com.amazon.testcases.Aws001 -->
+      <class name="com.amazon.testcases.Aws002">
+        <test-method signature="addBookToCart()[pri:0, instance:com.amazon.testcases.Aws002@5ffead27]" started-at="2022-07-26T22:01:51 IST" name="addBookToCart" finished-at="2022-07-26T22:02:17 IST" duration-ms="25220" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addBookToCart -->
+      </class> <!-- com.amazon.testcases.Aws002 -->
+      <class name="com.amazon.testcases.Aws003">
+        <test-method signature="changeLanguage()[pri:0, instance:com.amazon.testcases.Aws003@6356695f]" started-at="2022-07-26T22:02:17 IST" name="changeLanguage" finished-at="2022-07-26T22:02:31 IST" duration-ms="14570" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- changeLanguage -->
+      </class> <!-- com.amazon.testcases.Aws003 -->
+      <class name="com.amazon.testcases.Aws004">
+        <test-method signature="joinPrime()[pri:0, instance:com.amazon.testcases.Aws004@4f18837a]" started-at="2022-07-26T22:02:31 IST" name="joinPrime" finished-at="2022-07-26T22:02:38 IST" duration-ms="7062" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- joinPrime -->
       </class> <!-- com.amazon.testcases.Aws004 -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>

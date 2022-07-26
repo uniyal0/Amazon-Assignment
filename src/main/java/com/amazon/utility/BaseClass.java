@@ -15,7 +15,6 @@ public class BaseClass {
 		System.setProperty("webdriver.chrome.driver", "C:\\Users\\sudhanshu.uniyal\\OneDrive\\Desktop\\Assignment2_sudhanshu\\Assignment\\Drivers\\chromedriver.exe");
 		driver = new ChromeDriver();
 		driver.manage().window().maximize();
-		
 	}
 
 	@AfterSuite

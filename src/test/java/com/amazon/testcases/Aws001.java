@@ -9,7 +9,7 @@ public class Aws001 extends BaseClass{
 	
 	@Test()
 	public void verifyHomePageTitle() {
-		driver.get("https://www.amazon.in/");
+   	driver.get("https://www.amazon.in/");
 		VerifyHomePage.verifyTitle();
 	}
 

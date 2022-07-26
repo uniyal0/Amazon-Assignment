@@ -10,8 +10,8 @@ public class JoinPrime extends BaseClass {
 
 	
 	public static void join() throws InterruptedException {
-		driver.get("https://www.amazon.in");
-		Thread.sleep(2000);
+//		driver.get("https://www.amazon.in");
+//		Thread.sleep(2000);
 		WebElement element = driver.findElement(By.xpath("//a[@id='nav-link-amazonprime']"));
 		Actions action = new Actions(driver);
 		action.moveToElement(element).build().perform();

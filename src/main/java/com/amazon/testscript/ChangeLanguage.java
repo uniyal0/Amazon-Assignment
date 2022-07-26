@@ -12,7 +12,7 @@ public class ChangeLanguage extends BaseClass{
 	
 	
 	public static void change(String str) throws InterruptedException {
-		driver.get("https://www.amazon.in");
+//		driver.get("https://www.amazon.in");
 		WebElement element = driver.findElement(By.xpath("//div[contains(@id,'nav-tools')]//child::a"));
 		Actions action = new Actions(driver);
 		action.moveToElement(element).build().perform();
